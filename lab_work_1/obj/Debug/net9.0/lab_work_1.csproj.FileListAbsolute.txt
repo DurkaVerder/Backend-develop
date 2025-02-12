@@ -95,3 +95,5 @@ C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Back
 C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\lab_work_1\obj\Debug\net9.0\lab_work_1.pdb
 C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\lab_work_1\obj\Debug\net9.0\lab_work_1.genruntimeconfig.cache
 C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\lab_work_1\obj\Debug\net9.0\ref\lab_work_1.dll
+C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\lab_work_1\obj\Debug\net9.0\lab_work_1.sourcelink.json
+C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\lab_work_1\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

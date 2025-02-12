@@ -16,3 +16,4 @@ C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Back
 C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\lab_work_3\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\lab_work_3\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\lab_work_3\obj\Debug\net9.0\lab_work_3.csproj.Up2Date
+C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\lab_work_3\obj\Debug\net9.0\lab_work_3.sourcelink.json
