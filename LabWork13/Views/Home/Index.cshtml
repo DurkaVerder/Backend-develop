@@ -1,0 +1,15 @@
+﻿<h2>Welcome</h2>
+@if (User.Identity.IsAuthenticated)
+{
+    <p>Hello, @User.Identity.Name!</p>
+    <a asp-controller="Account" asp-action="Logout">Logout</a>
+    @if (User.IsInRole("Admin"))
+    {
+        <p><a asp-controller="Home" asp-action="AdminPanel">Admin Panel</a></p>
+    }
+    <p><a asp-controller="Home" asp-action="UserPanel">User Panel</a></p>
+}
+else
+{
+    <p><a asp-controller="Account" asp-action="Login">Login</a></p>
+}
