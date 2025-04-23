@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2>Главная страница</h2>
+
+    <ul>
+        <li><a asp-controller="Test" asp-action="ThrowException">Вызвать исключение (500)</a></li>
+        <li><a href="/nonexistent-page">Перейти на несуществующую страницу (404)</a></li>
+    </ul>
+
+</div>

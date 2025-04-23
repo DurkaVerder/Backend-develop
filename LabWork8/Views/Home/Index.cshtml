@@ -1,0 +1,28 @@
+﻿@model LabWork8.Models.User
+
+@{
+    ViewData["Title"] = "State Form";
+}
+
+<h2>Ввод данных</h2>
+
+<form asp-action="Save" method="post">
+    <div>
+        <label>Имя:</label>
+        <input asp-for="UserName" />
+    </div>
+    <button type="submit">Сохранить</button>
+</form>
+
+<hr />
+
+
+
+
+<script>
+    localStorage.setItem("AppTheme", "dark");
+    sessionStorage.setItem("LastPage", "Index");
+
+    console.log("localStorage (AppTheme):", localStorage.getItem("AppTheme"));
+    console.log("sessionStorage (LastPage):", sessionStorage.getItem("LastPage"));
+</script>

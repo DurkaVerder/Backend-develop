@@ -1,0 +1,909 @@
+2025-04-21 20:49:19.835 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 20:49:19.905 +03:00 [DBG] Hosting starting
+2025-04-21 20:49:20.017 +03:00 [INF] Now listening on: https://localhost:7253
+2025-04-21 20:49:20.019 +03:00 [INF] Now listening on: http://localhost:5012
+2025-04-21 20:49:20.020 +03:00 [DBG] Loaded hosting startup assembly LabWork7
+2025-04-21 20:49:20.021 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 20:49:20.022 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 20:49:20.023 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 20:49:20.091 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 20:49:20.093 +03:00 [INF] Hosting environment: Development
+2025-04-21 20:49:20.094 +03:00 [INF] Content root path: C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7
+2025-04-21 20:49:20.095 +03:00 [DBG] Hosting started
+2025-04-21 20:49:20.188 +03:00 [DBG] Connection id "0HNC0VJC1B24B" accepted.
+2025-04-21 20:49:20.190 +03:00 [DBG] Connection id "0HNC0VJC1B24B" started.
+2025-04-21 20:49:20.199 +03:00 [DBG] Connection id "0HNC0VJC1B24B" received FIN.
+2025-04-21 20:49:20.210 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:49:20.236 +03:00 [DBG] Connection id "0HNC0VJC1B24B" stopped.
+2025-04-21 20:49:20.241 +03:00 [DBG] Connection id "0HNC0VJC1B24B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:49:20.408 +03:00 [DBG] Connection id "0HNC0VJC1B24C" accepted.
+2025-04-21 20:49:20.409 +03:00 [DBG] Connection id "0HNC0VJC1B24C" started.
+2025-04-21 20:49:20.410 +03:00 [DBG] Connection id "0HNC0VJC1B24D" accepted.
+2025-04-21 20:49:20.412 +03:00 [DBG] Connection id "0HNC0VJC1B24D" started.
+2025-04-21 20:49:20.444 +03:00 [DBG] Connection id "0HNC0VJC1B24C" received FIN.
+2025-04-21 20:49:20.451 +03:00 [DBG] Connection 0HNC0VJC1B24C established using the following protocol: "Tls13"
+2025-04-21 20:49:20.451 +03:00 [DBG] Connection 0HNC0VJC1B24D established using the following protocol: "Tls13"
+2025-04-21 20:49:20.472 +03:00 [DBG] Connection id "0HNC0VJC1B24C" is closed. The last processed stream ID was 0.
+2025-04-21 20:49:20.474 +03:00 [DBG] Connection id "0HNC0VJC1B24C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:49:20.477 +03:00 [DBG] The connection queue processing loop for 0HNC0VJC1B24C completed.
+2025-04-21 20:49:20.481 +03:00 [DBG] Connection id "0HNC0VJC1B24C" stopped.
+2025-04-21 20:49:20.504 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:49:20.597 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 20:49:20.606 +03:00 [DBG] No candidates found for the request path '/'
+2025-04-21 20:49:20.609 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:49:20.617 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 404 0 null 114.7475ms
+2025-04-21 20:49:20.628 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/, Response status code: 404
+2025-04-21 20:49:21.733 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:49:21.744 +03:00 [DBG] No candidates found for the request path '/'
+2025-04-21 20:49:21.747 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:49:21.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 404 0 null 15.9558ms
+2025-04-21 20:49:21.755 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/, Response status code: 404
+2025-04-21 20:49:26.912 +03:00 [DBG] Connection id "0HNC0VJC1B24D" received FIN.
+2025-04-21 20:49:26.915 +03:00 [DBG] Connection id "0HNC0VJC1B24D" is closed. The last processed stream ID was 3.
+2025-04-21 20:49:26.915 +03:00 [DBG] The connection queue processing loop for 0HNC0VJC1B24D completed.
+2025-04-21 20:49:26.918 +03:00 [DBG] Connection id "0HNC0VJC1B24D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:49:26.924 +03:00 [DBG] Connection id "0HNC0VJC1B24D" stopped.
+2025-04-21 20:49:27.334 +03:00 [DBG] Connection id "0HNC0VJC1B24E" accepted.
+2025-04-21 20:49:27.339 +03:00 [DBG] Connection id "0HNC0VJC1B24E" started.
+2025-04-21 20:49:27.348 +03:00 [DBG] Connection 0HNC0VJC1B24E established using the following protocol: "Tls13"
+2025-04-21 20:49:31.133 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/Index - null null
+2025-04-21 20:49:31.143 +03:00 [DBG] No candidates found for the request path '/Index'
+2025-04-21 20:49:31.145 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:49:31.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/Index - 404 0 null 15.4213ms
+2025-04-21 20:49:31.154 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/Index, Response status code: 404
+2025-04-21 20:49:36.929 +03:00 [DBG] Connection id "0HNC0VJC1B24E" received FIN.
+2025-04-21 20:49:36.932 +03:00 [DBG] Connection id "0HNC0VJC1B24E" is closed. The last processed stream ID was 1.
+2025-04-21 20:49:36.932 +03:00 [DBG] The connection queue processing loop for 0HNC0VJC1B24E completed.
+2025-04-21 20:49:36.933 +03:00 [DBG] Connection id "0HNC0VJC1B24E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:49:36.973 +03:00 [DBG] Connection id "0HNC0VJC1B24E" stopped.
+2025-04-21 20:49:40.004 +03:00 [DBG] Connection id "0HNC0VJC1B24F" accepted.
+2025-04-21 20:49:40.009 +03:00 [DBG] Connection id "0HNC0VJC1B24F" started.
+2025-04-21 20:49:40.020 +03:00 [DBG] Connection 0HNC0VJC1B24F established using the following protocol: "Tls13"
+2025-04-21 20:49:40.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/Home/Index - null null
+2025-04-21 20:49:40.031 +03:00 [DBG] No candidates found for the request path '/Home/Index'
+2025-04-21 20:49:40.036 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:49:40.038 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/Home/Index - 404 0 null 13.7674ms
+2025-04-21 20:49:40.042 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/Home/Index, Response status code: 404
+2025-04-21 20:49:46.934 +03:00 [DBG] Connection id "0HNC0VJC1B24F" received FIN.
+2025-04-21 20:49:46.947 +03:00 [DBG] Connection id "0HNC0VJC1B24F" is closed. The last processed stream ID was 1.
+2025-04-21 20:49:46.955 +03:00 [DBG] Connection id "0HNC0VJC1B24F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:49:46.948 +03:00 [DBG] The connection queue processing loop for 0HNC0VJC1B24F completed.
+2025-04-21 20:49:46.964 +03:00 [DBG] Connection id "0HNC0VJC1B24F" stopped.
+2025-04-21 20:49:59.664 +03:00 [DBG] Connection id "0HNC0VJC1B24G" accepted.
+2025-04-21 20:49:59.668 +03:00 [DBG] Connection id "0HNC0VJC1B24G" started.
+2025-04-21 20:49:59.677 +03:00 [DBG] Connection 0HNC0VJC1B24G established using the following protocol: "Tls13"
+2025-04-21 20:49:59.681 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/Home - null null
+2025-04-21 20:49:59.687 +03:00 [DBG] No candidates found for the request path '/Home'
+2025-04-21 20:49:59.688 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:49:59.689 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/Home - 404 0 null 8.3648ms
+2025-04-21 20:49:59.694 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/Home, Response status code: 404
+2025-04-21 20:50:01.588 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/Home/ - null null
+2025-04-21 20:50:01.598 +03:00 [DBG] No candidates found for the request path '/Home/'
+2025-04-21 20:50:01.602 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:50:01.605 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/Home/ - 404 0 null 16.8573ms
+2025-04-21 20:50:01.611 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/Home/, Response status code: 404
+2025-04-21 20:50:06.958 +03:00 [DBG] Connection id "0HNC0VJC1B24G" received FIN.
+2025-04-21 20:50:06.962 +03:00 [DBG] Connection id "0HNC0VJC1B24G" is closed. The last processed stream ID was 3.
+2025-04-21 20:50:06.962 +03:00 [DBG] The connection queue processing loop for 0HNC0VJC1B24G completed.
+2025-04-21 20:50:06.969 +03:00 [DBG] Connection id "0HNC0VJC1B24G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:50:06.988 +03:00 [DBG] Connection id "0HNC0VJC1B24G" stopped.
+2025-04-21 20:50:26.721 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 20:50:26.781 +03:00 [DBG] Hosting starting
+2025-04-21 20:50:26.837 +03:00 [INF] Now listening on: https://localhost:7253
+2025-04-21 20:50:26.839 +03:00 [INF] Now listening on: http://localhost:5012
+2025-04-21 20:50:26.841 +03:00 [DBG] Loaded hosting startup assembly LabWork7
+2025-04-21 20:50:26.842 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 20:50:26.844 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 20:50:26.845 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 20:50:26.881 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 20:50:26.883 +03:00 [INF] Hosting environment: Development
+2025-04-21 20:50:26.885 +03:00 [INF] Content root path: C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7
+2025-04-21 20:50:26.887 +03:00 [DBG] Hosting started
+2025-04-21 20:50:26.911 +03:00 [DBG] Connection id "0HNC0VJVTLCC5" accepted.
+2025-04-21 20:50:26.914 +03:00 [DBG] Connection id "0HNC0VJVTLCC5" started.
+2025-04-21 20:50:26.922 +03:00 [DBG] Connection id "0HNC0VJVTLCC6" accepted.
+2025-04-21 20:50:26.925 +03:00 [DBG] Connection id "0HNC0VJVTLCC6" started.
+2025-04-21 20:50:26.955 +03:00 [DBG] Connection id "0HNC0VJVTLCC6" received FIN.
+2025-04-21 20:50:26.955 +03:00 [DBG] Connection id "0HNC0VJVTLCC5" received FIN.
+2025-04-21 20:50:26.965 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:50:26.965 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:50:26.982 +03:00 [DBG] Connection id "0HNC0VJVTLCC5" stopped.
+2025-04-21 20:50:26.982 +03:00 [DBG] Connection id "0HNC0VJVTLCC6" stopped.
+2025-04-21 20:50:26.989 +03:00 [DBG] Connection id "0HNC0VJVTLCC5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:50:26.989 +03:00 [DBG] Connection id "0HNC0VJVTLCC6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:50:27.067 +03:00 [DBG] Connection id "0HNC0VJVTLCC7" accepted.
+2025-04-21 20:50:27.069 +03:00 [DBG] Connection id "0HNC0VJVTLCC7" started.
+2025-04-21 20:50:27.096 +03:00 [DBG] Connection 0HNC0VJVTLCC7 established using the following protocol: "Tls13"
+2025-04-21 20:50:27.125 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:50:27.177 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 20:50:27.188 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-21 20:50:27.194 +03:00 [DBG] Endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)' with route pattern '' is valid for the request path '/'
+2025-04-21 20:50:27.197 +03:00 [DBG] Request matched endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:50:27.204 +03:00 [INF] Executing endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:50:27.236 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LabWork7.Controllers.HomeController (LabWork7).
+2025-04-21 20:50:27.241 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 20:50:27.244 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-21 20:50:27.247 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-21 20:50:27.250 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 20:50:27.254 +03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-21 20:50:27.259 +03:00 [DBG] Executing controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:50:27.263 +03:00 [DBG] Executed controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:50:27.267 +03:00 [INF] Info: Запрос получен.
+2025-04-21 20:50:27.268 +03:00 [DBG] Debug: Детали запроса...
+2025-04-21 20:50:27.270 +03:00 [WRN] Warning: Потенциальная проблема.
+2025-04-21 20:50:27.271 +03:00 [ERR] Error: Произошла ошибка.
+2025-04-21 20:50:27.275 +03:00 [FTL] Critical: Критическая ошибка!
+2025-04-21 20:50:27.282 +03:00 [INF] Executed action LabWork7.Controllers.HomeController.Index (LabWork7) in 22.3079ms
+2025-04-21 20:50:27.287 +03:00 [INF] Executed endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:50:27.290 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionaryFactory' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Mvc.Controller.get_TempData()
+   at Microsoft.AspNetCore.Mvc.Controller.View(String viewName, Object model)
+   at LabWork7.Controllers.HomeController.Index() in C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7\Controllers\HomeController.cs:line 26
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-21 20:50:27.384 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 20:50:27.393 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 20:50:27.405 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 20:50:27.409 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 20:50:27.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 500 null text/html; charset=utf-8 289.6761ms
+2025-04-21 20:50:27.422 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 20:50:27.422 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-04-21 20:50:27.432 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 9.4449ms
+2025-04-21 20:50:27.473 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.3558ms
+2025-04-21 20:50:27.550 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/favicon.ico - null null
+2025-04-21 20:50:27.553 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-04-21 20:50:27.555 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:50:27.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/favicon.ico - 404 0 null 9.8167ms
+2025-04-21 20:50:27.566 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/favicon.ico, Response status code: 404
+2025-04-21 20:50:37.002 +03:00 [DBG] Connection id "0HNC0VJVTLCC7" received FIN.
+2025-04-21 20:50:37.011 +03:00 [DBG] The connection queue processing loop for 0HNC0VJVTLCC7 completed.
+2025-04-21 20:50:37.018 +03:00 [DBG] Connection id "0HNC0VJVTLCC7" is closed. The last processed stream ID was 7.
+2025-04-21 20:50:37.022 +03:00 [DBG] Connection id "0HNC0VJVTLCC7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:50:37.032 +03:00 [DBG] Connection id "0HNC0VJVTLCC7" stopped.
+2025-04-21 20:51:21.594 +03:00 [DBG] Connection id "0HNC0VJVTLCC8" accepted.
+2025-04-21 20:51:21.600 +03:00 [DBG] Connection id "0HNC0VJVTLCC8" started.
+2025-04-21 20:51:21.616 +03:00 [DBG] Connection 0HNC0VJVTLCC8 established using the following protocol: "Tls13"
+2025-04-21 20:51:21.622 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:51:21.634 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-21 20:51:21.638 +03:00 [DBG] Endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)' with route pattern '' is valid for the request path '/'
+2025-04-21 20:51:21.641 +03:00 [DBG] Request matched endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:51:21.648 +03:00 [INF] Executing endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:51:21.656 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LabWork7.Controllers.HomeController (LabWork7).
+2025-04-21 20:51:21.665 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 20:51:21.675 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-21 20:51:21.682 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-21 20:51:21.691 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 20:51:21.698 +03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-21 20:51:21.709 +03:00 [DBG] Executing controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:51:21.723 +03:00 [DBG] Executed controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:51:21.741 +03:00 [INF] Info: Запрос получен.
+2025-04-21 20:51:21.753 +03:00 [DBG] Debug: Детали запроса...
+2025-04-21 20:51:21.765 +03:00 [WRN] Warning: Потенциальная проблема.
+2025-04-21 20:51:21.775 +03:00 [ERR] Error: Произошла ошибка.
+2025-04-21 20:51:21.787 +03:00 [FTL] Critical: Критическая ошибка!
+2025-04-21 20:51:21.803 +03:00 [INF] Executed action LabWork7.Controllers.HomeController.Index (LabWork7) in 94.1663ms
+2025-04-21 20:51:21.823 +03:00 [INF] Executed endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:51:21.838 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionaryFactory' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Mvc.Controller.get_TempData()
+   at Microsoft.AspNetCore.Mvc.Controller.View(String viewName, Object model)
+   at LabWork7.Controllers.HomeController.Index() in C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7\Controllers\HomeController.cs:line 26
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-21 20:51:22.111 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 20:51:22.114 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 20:51:22.117 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 20:51:22.119 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 20:51:22.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 500 null text/html; charset=utf-8 498.6275ms
+2025-04-21 20:51:22.140 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 20:51:22.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-04-21 20:51:22.146 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 6.0608ms
+2025-04-21 20:51:22.156 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.3003ms
+2025-04-21 20:51:32.079 +03:00 [DBG] Connection id "0HNC0VJVTLCC8" received FIN.
+2025-04-21 20:51:32.085 +03:00 [DBG] Connection id "0HNC0VJVTLCC8" is closed. The last processed stream ID was 5.
+2025-04-21 20:51:32.086 +03:00 [DBG] The connection queue processing loop for 0HNC0VJVTLCC8 completed.
+2025-04-21 20:51:32.089 +03:00 [DBG] Connection id "0HNC0VJVTLCC8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:51:32.105 +03:00 [DBG] Connection id "0HNC0VJVTLCC8" stopped.
+2025-04-21 20:51:52.169 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 20:51:52.231 +03:00 [DBG] Hosting starting
+2025-04-21 20:51:52.285 +03:00 [INF] Now listening on: https://localhost:7253
+2025-04-21 20:51:52.288 +03:00 [INF] Now listening on: http://localhost:5012
+2025-04-21 20:51:52.289 +03:00 [DBG] Loaded hosting startup assembly LabWork7
+2025-04-21 20:51:52.290 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 20:51:52.291 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 20:51:52.293 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 20:51:52.338 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 20:51:52.340 +03:00 [INF] Hosting environment: Development
+2025-04-21 20:51:52.341 +03:00 [INF] Content root path: C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7
+2025-04-21 20:51:52.343 +03:00 [DBG] Hosting started
+2025-04-21 20:51:52.377 +03:00 [DBG] Connection id "0HNC0VKPCNDO8" received FIN.
+2025-04-21 20:51:52.377 +03:00 [DBG] Connection id "0HNC0VKPCNDO7" received FIN.
+2025-04-21 20:51:52.383 +03:00 [DBG] Connection id "0HNC0VKPCNDO7" accepted.
+2025-04-21 20:51:52.383 +03:00 [DBG] Connection id "0HNC0VKPCNDO8" accepted.
+2025-04-21 20:51:52.387 +03:00 [DBG] Connection id "0HNC0VKPCNDO7" started.
+2025-04-21 20:51:52.388 +03:00 [DBG] Connection id "0HNC0VKPCNDO8" started.
+2025-04-21 20:51:52.389 +03:00 [DBG] Connection id "0HNC0VKPCNDO9" accepted.
+2025-04-21 20:51:52.392 +03:00 [DBG] Connection id "0HNC0VKPCNDO9" started.
+2025-04-21 20:51:52.398 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:51:52.398 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:51:52.408 +03:00 [DBG] Connection id "0HNC0VKPCNDO8" stopped.
+2025-04-21 20:51:52.409 +03:00 [DBG] Connection id "0HNC0VKPCNDO7" stopped.
+2025-04-21 20:51:52.413 +03:00 [DBG] Connection id "0HNC0VKPCNDO8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:51:52.413 +03:00 [DBG] Connection id "0HNC0VKPCNDO7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:51:52.413 +03:00 [DBG] Connection 0HNC0VKPCNDO9 established using the following protocol: "Tls13"
+2025-04-21 20:51:52.442 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:51:52.494 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 20:51:52.500 +03:00 [DBG] No candidates found for the request path '/'
+2025-04-21 20:51:52.502 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:51:52.508 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 404 0 null 66.7569ms
+2025-04-21 20:51:52.516 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/, Response status code: 404
+2025-04-21 20:51:58.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:51:58.311 +03:00 [DBG] No candidates found for the request path '/'
+2025-04-21 20:51:58.315 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:51:58.317 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 404 0 null 17.9433ms
+2025-04-21 20:51:58.326 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/, Response status code: 404
+2025-04-21 20:51:58.830 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:51:58.837 +03:00 [DBG] No candidates found for the request path '/'
+2025-04-21 20:51:58.838 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:51:58.840 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 404 0 null 9.7285ms
+2025-04-21 20:51:58.844 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/, Response status code: 404
+2025-04-21 20:52:02.116 +03:00 [DBG] Connection id "0HNC0VKPCNDO9" received FIN.
+2025-04-21 20:52:02.122 +03:00 [DBG] The connection queue processing loop for 0HNC0VKPCNDO9 completed.
+2025-04-21 20:52:02.124 +03:00 [DBG] Connection id "0HNC0VKPCNDO9" is closed. The last processed stream ID was 5.
+2025-04-21 20:52:02.126 +03:00 [DBG] Connection id "0HNC0VKPCNDO9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:52:02.142 +03:00 [DBG] Connection id "0HNC0VKPCNDO9" stopped.
+2025-04-21 20:52:12.695 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 20:52:12.760 +03:00 [DBG] Hosting starting
+2025-04-21 20:52:12.817 +03:00 [INF] Now listening on: https://localhost:7253
+2025-04-21 20:52:12.819 +03:00 [INF] Now listening on: http://localhost:5012
+2025-04-21 20:52:12.820 +03:00 [DBG] Loaded hosting startup assembly LabWork7
+2025-04-21 20:52:12.820 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 20:52:12.821 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 20:52:12.821 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 20:52:12.855 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 20:52:12.856 +03:00 [INF] Hosting environment: Development
+2025-04-21 20:52:12.857 +03:00 [INF] Content root path: C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7
+2025-04-21 20:52:12.858 +03:00 [DBG] Hosting started
+2025-04-21 20:52:12.995 +03:00 [DBG] Connection id "0HNC0VKVHBF6L" received FIN.
+2025-04-21 20:52:12.995 +03:00 [DBG] Connection id "0HNC0VKVHBF6M" received FIN.
+2025-04-21 20:52:13.002 +03:00 [DBG] Connection id "0HNC0VKVHBF6L" accepted.
+2025-04-21 20:52:13.002 +03:00 [DBG] Connection id "0HNC0VKVHBF6M" accepted.
+2025-04-21 20:52:13.006 +03:00 [DBG] Connection id "0HNC0VKVHBF6L" started.
+2025-04-21 20:52:13.007 +03:00 [DBG] Connection id "0HNC0VKVHBF6M" started.
+2025-04-21 20:52:13.021 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:52:13.021 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:52:13.034 +03:00 [DBG] Connection id "0HNC0VKVHBF6L" stopped.
+2025-04-21 20:52:13.034 +03:00 [DBG] Connection id "0HNC0VKVHBF6M" stopped.
+2025-04-21 20:52:13.041 +03:00 [DBG] Connection id "0HNC0VKVHBF6M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:52:13.041 +03:00 [DBG] Connection id "0HNC0VKVHBF6L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:52:13.087 +03:00 [DBG] Connection id "0HNC0VKVHBF6N" accepted.
+2025-04-21 20:52:13.089 +03:00 [DBG] Connection id "0HNC0VKVHBF6N" started.
+2025-04-21 20:52:13.118 +03:00 [DBG] Connection 0HNC0VKVHBF6N established using the following protocol: "Tls13"
+2025-04-21 20:52:13.147 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:52:13.203 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 20:52:13.208 +03:00 [DBG] No candidates found for the request path '/'
+2025-04-21 20:52:13.211 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:52:13.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 404 0 null 72.5593ms
+2025-04-21 20:52:13.230 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/, Response status code: 404
+2025-04-21 20:52:14.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:52:14.305 +03:00 [DBG] No candidates found for the request path '/'
+2025-04-21 20:52:14.307 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:52:14.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 404 0 null 9.5146ms
+2025-04-21 20:52:14.316 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/, Response status code: 404
+2025-04-21 20:52:16.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:52:16.449 +03:00 [DBG] No candidates found for the request path '/'
+2025-04-21 20:52:16.450 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:52:16.453 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 404 0 null 19.1625ms
+2025-04-21 20:52:16.458 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/, Response status code: 404
+2025-04-21 20:52:22.155 +03:00 [DBG] Connection id "0HNC0VKVHBF6N" received FIN.
+2025-04-21 20:52:22.165 +03:00 [DBG] The connection queue processing loop for 0HNC0VKVHBF6N completed.
+2025-04-21 20:52:22.167 +03:00 [DBG] Connection id "0HNC0VKVHBF6N" is closed. The last processed stream ID was 5.
+2025-04-21 20:52:22.175 +03:00 [DBG] Connection id "0HNC0VKVHBF6N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:52:22.192 +03:00 [DBG] Connection id "0HNC0VKVHBF6N" stopped.
+2025-04-21 20:53:15.201 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 20:53:15.258 +03:00 [DBG] Hosting starting
+2025-04-21 20:53:15.312 +03:00 [INF] Now listening on: https://localhost:7253
+2025-04-21 20:53:15.314 +03:00 [INF] Now listening on: http://localhost:5012
+2025-04-21 20:53:15.316 +03:00 [DBG] Loaded hosting startup assembly LabWork7
+2025-04-21 20:53:15.317 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 20:53:15.318 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 20:53:15.319 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 20:53:15.350 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 20:53:15.353 +03:00 [INF] Hosting environment: Development
+2025-04-21 20:53:15.355 +03:00 [INF] Content root path: C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7
+2025-04-21 20:53:15.357 +03:00 [DBG] Hosting started
+2025-04-21 20:53:15.502 +03:00 [DBG] Connection id "0HNC0VLI5F661" accepted.
+2025-04-21 20:53:15.502 +03:00 [DBG] Connection id "0HNC0VLI5F660" accepted.
+2025-04-21 20:53:15.505 +03:00 [DBG] Connection id "0HNC0VLI5F661" started.
+2025-04-21 20:53:15.511 +03:00 [DBG] Connection id "0HNC0VLI5F661" received FIN.
+2025-04-21 20:53:15.511 +03:00 [DBG] Connection id "0HNC0VLI5F660" received FIN.
+2025-04-21 20:53:15.513 +03:00 [DBG] Connection id "0HNC0VLI5F660" started.
+2025-04-21 20:53:15.531 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:53:15.531 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:53:15.544 +03:00 [DBG] Connection id "0HNC0VLI5F661" stopped.
+2025-04-21 20:53:15.545 +03:00 [DBG] Connection id "0HNC0VLI5F660" stopped.
+2025-04-21 20:53:15.550 +03:00 [DBG] Connection id "0HNC0VLI5F660" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:53:15.550 +03:00 [DBG] Connection id "0HNC0VLI5F661" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:53:15.591 +03:00 [DBG] Connection id "0HNC0VLI5F662" accepted.
+2025-04-21 20:53:15.592 +03:00 [DBG] Connection id "0HNC0VLI5F662" started.
+2025-04-21 20:53:15.621 +03:00 [DBG] Connection 0HNC0VLI5F662 established using the following protocol: "Tls13"
+2025-04-21 20:53:15.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:53:15.705 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 20:53:15.716 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-21 20:53:15.723 +03:00 [DBG] Endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)' with route pattern '{controller=Home}/{action=Index}' is valid for the request path '/'
+2025-04-21 20:53:15.726 +03:00 [DBG] Request matched endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:53:15.730 +03:00 [INF] Executing endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:53:15.747 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LabWork7.Controllers.HomeController (LabWork7).
+2025-04-21 20:53:15.753 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 20:53:15.756 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-21 20:53:15.761 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-21 20:53:15.764 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 20:53:15.767 +03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-21 20:53:15.771 +03:00 [DBG] Executing controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:53:15.774 +03:00 [DBG] Executed controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:53:15.776 +03:00 [INF] Info: Запрос получен.
+2025-04-21 20:53:15.777 +03:00 [DBG] Debug: Детали запроса...
+2025-04-21 20:53:15.779 +03:00 [WRN] Warning: Потенциальная проблема.
+2025-04-21 20:53:15.780 +03:00 [ERR] Error: Произошла ошибка.
+2025-04-21 20:53:15.784 +03:00 [INF] Executed action LabWork7.Controllers.HomeController.Index (LabWork7) in 12.1965ms
+2025-04-21 20:53:15.791 +03:00 [INF] Executed endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:53:15.793 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionaryFactory' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Mvc.Controller.get_TempData()
+   at Microsoft.AspNetCore.Mvc.Controller.View(String viewName, Object model)
+   at LabWork7.Controllers.HomeController.Index() in C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7\Controllers\HomeController.cs:line 26
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-21 20:53:15.977 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 20:53:15.984 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 20:53:15.993 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 20:53:15.996 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 20:53:16.001 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 500 null text/html; charset=utf-8 353.6161ms
+2025-04-21 20:53:16.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-04-21 20:53:16.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 20:53:16.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 11.7215ms
+2025-04-21 20:53:16.041 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.7507ms
+2025-04-21 20:53:17.233 +03:00 [DBG] Connection id "0HNC0VLI5F662" received FIN.
+2025-04-21 20:53:17.240 +03:00 [DBG] The connection queue processing loop for 0HNC0VLI5F662 completed.
+2025-04-21 20:53:17.243 +03:00 [DBG] Connection id "0HNC0VLI5F662" is closed. The last processed stream ID was 5.
+2025-04-21 20:53:17.246 +03:00 [DBG] Connection id "0HNC0VLI5F662" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:53:17.254 +03:00 [DBG] Connection id "0HNC0VLI5F662" stopped.
+2025-04-21 20:53:56.427 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-21 20:53:56.464 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-21 20:53:56.468 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-21 20:53:56.470 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-21 20:53:56.471 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-21 20:53:56.480 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-21 20:53:56.481 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-21 20:53:56.487 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 20:53:56.518 +03:00 [DBG] Hosting starting
+2025-04-21 20:53:56.539 +03:00 [INF] User profile is available. Using 'C:\Users\vrrrr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-21 20:53:56.549 +03:00 [DBG] Reading data from file 'C:\Users\vrrrr\AppData\Local\ASP.NET\DataProtection-Keys\key-6ded2f19-a5dc-437b-bbf6-69c282b700b0.xml'.
+2025-04-21 20:53:56.579 +03:00 [DBG] Reading data from file 'C:\Users\vrrrr\AppData\Local\ASP.NET\DataProtection-Keys\key-bdcfde20-8844-478f-8bdb-0aab322d8c95.xml'.
+2025-04-21 20:53:56.596 +03:00 [DBG] Reading data from file 'C:\Users\vrrrr\AppData\Local\ASP.NET\DataProtection-Keys\key-dc396d63-71a7-4e88-a4f6-7cfc09fa4efa.xml'.
+2025-04-21 20:53:56.615 +03:00 [DBG] Found key {6ded2f19-a5dc-437b-bbf6-69c282b700b0}.
+2025-04-21 20:53:56.623 +03:00 [DBG] Found key {bdcfde20-8844-478f-8bdb-0aab322d8c95}.
+2025-04-21 20:53:56.626 +03:00 [DBG] Found key {dc396d63-71a7-4e88-a4f6-7cfc09fa4efa}.
+2025-04-21 20:53:56.631 +03:00 [DBG] Considering key {6ded2f19-a5dc-437b-bbf6-69c282b700b0} with expiration date 2025-05-10 11:16:19Z as default key.
+2025-04-21 20:53:56.635 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-21 20:53:56.638 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-21 20:53:56.640 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-21 20:53:56.646 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-21 20:53:56.649 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-21 20:53:56.652 +03:00 [DBG] Using key {6ded2f19-a5dc-437b-bbf6-69c282b700b0} as the default key.
+2025-04-21 20:53:56.654 +03:00 [DBG] Key ring with default key {6ded2f19-a5dc-437b-bbf6-69c282b700b0} was loaded during application startup.
+2025-04-21 20:53:56.700 +03:00 [INF] Now listening on: https://localhost:7253
+2025-04-21 20:53:56.703 +03:00 [INF] Now listening on: http://localhost:5012
+2025-04-21 20:53:56.705 +03:00 [DBG] Loaded hosting startup assembly LabWork7
+2025-04-21 20:53:56.706 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 20:53:56.709 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 20:53:56.710 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 20:53:56.742 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 20:53:56.745 +03:00 [INF] Hosting environment: Development
+2025-04-21 20:53:56.746 +03:00 [INF] Content root path: C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7
+2025-04-21 20:53:56.748 +03:00 [DBG] Hosting started
+2025-04-21 20:53:56.966 +03:00 [DBG] Connection id "0HNC0VLUGT52F" accepted.
+2025-04-21 20:53:56.968 +03:00 [DBG] Connection id "0HNC0VLUGT52F" started.
+2025-04-21 20:53:56.973 +03:00 [DBG] Connection id "0HNC0VLUGT52G" accepted.
+2025-04-21 20:53:56.974 +03:00 [DBG] Connection id "0HNC0VLUGT52G" started.
+2025-04-21 20:53:56.991 +03:00 [DBG] Connection id "0HNC0VLUGT52F" received FIN.
+2025-04-21 20:53:56.992 +03:00 [DBG] Connection id "0HNC0VLUGT52G" received FIN.
+2025-04-21 20:53:57.002 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:53:57.002 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 20:53:57.026 +03:00 [DBG] Connection id "0HNC0VLUGT52F" stopped.
+2025-04-21 20:53:57.027 +03:00 [DBG] Connection id "0HNC0VLUGT52G" stopped.
+2025-04-21 20:53:57.032 +03:00 [DBG] Connection id "0HNC0VLUGT52F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:53:57.034 +03:00 [DBG] Connection id "0HNC0VLUGT52G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:53:57.092 +03:00 [DBG] Connection id "0HNC0VLUGT52H" accepted.
+2025-04-21 20:53:57.103 +03:00 [DBG] Connection id "0HNC0VLUGT52H" started.
+2025-04-21 20:53:57.124 +03:00 [DBG] Connection 0HNC0VLUGT52H established using the following protocol: "Tls13"
+2025-04-21 20:53:57.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:53:57.212 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 20:53:57.222 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-21 20:53:57.228 +03:00 [DBG] Endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)' with route pattern '{controller=Home}/{action=Index}' is valid for the request path '/'
+2025-04-21 20:53:57.233 +03:00 [DBG] Request matched endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:53:57.235 +03:00 [INF] Executing endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:53:57.256 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LabWork7.Controllers.HomeController (LabWork7).
+2025-04-21 20:53:57.265 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 20:53:57.268 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-21 20:53:57.271 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-21 20:53:57.274 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 20:53:57.276 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-21 20:53:57.280 +03:00 [DBG] Executing controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:53:57.283 +03:00 [DBG] Executed controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:53:57.287 +03:00 [INF] Info: Запрос получен.
+2025-04-21 20:53:57.288 +03:00 [DBG] Debug: Детали запроса...
+2025-04-21 20:53:57.290 +03:00 [WRN] Warning: Потенциальная проблема.
+2025-04-21 20:53:57.291 +03:00 [ERR] Error: Произошла ошибка.
+2025-04-21 20:53:57.294 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-04-21 20:53:57.302 +03:00 [INF] Executing ViewResult, running view Index.
+2025-04-21 20:53:57.306 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 10.5454ms.
+2025-04-21 20:53:57.324 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-04-21 20:53:57.400 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-21 20:53:57.406 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in  and 
+2025-04-21 20:53:57.411 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /
+2025-04-21 20:53:57.416 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-21 20:53:57.420 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in  and 
+2025-04-21 20:53:57.423 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /
+2025-04-21 20:53:57.427 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-21 20:53:57.432 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in /Home/Privacy and 
+2025-04-21 20:53:57.434 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /Home/Privacy
+2025-04-21 20:53:57.438 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-21 20:53:57.442 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in /Home/Privacy and 
+2025-04-21 20:53:57.445 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /Home/Privacy
+2025-04-21 20:53:57.484 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 20:53:57.488 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 20:53:57.491 +03:00 [INF] Executed ViewResult - view Index executed in 197.2809ms.
+2025-04-21 20:53:57.496 +03:00 [INF] Executed action LabWork7.Controllers.HomeController.Index (LabWork7) in 215.8941ms
+2025-04-21 20:53:57.500 +03:00 [INF] Executed endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:53:57.502 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 20:53:57.504 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 20:53:57.508 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 356.0883ms
+2025-04-21 20:53:57.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-21 20:53:57.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/LabWork7.styles.css?v=OSwruJTB_DHdTvoqqFutTEAWy2zZbaNHvvQCQK1Ao20 - null null
+2025-04-21 20:53:57.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-04-21 20:53:57.550 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-04-21 20:53:57.555 +03:00 [DBG] No candidates found for the request path '/LabWork7.styles.css'
+2025-04-21 20:53:57.560 +03:00 [DBG] No candidates found for the request path '/css/site.css'
+2025-04-21 20:53:57.562 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:53:57.563 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:53:57.565 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:53:57.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 25.0191ms
+2025-04-21 20:53:57.568 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/LabWork7.styles.css?v=OSwruJTB_DHdTvoqqFutTEAWy2zZbaNHvvQCQK1Ao20 - 404 0 null 24.3791ms
+2025-04-21 20:53:57.568 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 404 0 null 25.193ms
+2025-04-21 20:53:57.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - null null
+2025-04-21 20:53:57.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-21 20:53:57.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-21 20:53:57.574 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-04-21 20:53:57.576 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/LabWork7.styles.css, Response status code: 404
+2025-04-21 20:53:57.579 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/css/site.css, Response status code: 404
+2025-04-21 20:53:57.583 +03:00 [DBG] No candidates found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-04-21 20:53:57.586 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-04-21 20:53:57.590 +03:00 [DBG] No candidates found for the request path '/js/site.js'
+2025-04-21 20:53:57.600 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:53:57.602 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:53:57.604 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:53:57.605 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - 404 0 null 32.7635ms
+2025-04-21 20:53:57.606 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 33.8274ms
+2025-04-21 20:53:57.607 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 34.373ms
+2025-04-21 20:53:57.609 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 20:53:57.609 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-04-21 20:53:57.610 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-04-21 20:53:57.614 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-04-21 20:53:57.620 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/js/site.js, Response status code: 404
+2025-04-21 20:53:57.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 19.3133ms
+2025-04-21 20:53:57.647 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.6403ms
+2025-04-21 20:54:02.301 +03:00 [DBG] Connection id "0HNC0VLUGT52H" received FIN.
+2025-04-21 20:54:02.315 +03:00 [DBG] The connection queue processing loop for 0HNC0VLUGT52H completed.
+2025-04-21 20:54:02.319 +03:00 [DBG] Connection id "0HNC0VLUGT52H" is closed. The last processed stream ID was 17.
+2025-04-21 20:54:02.323 +03:00 [DBG] Connection id "0HNC0VLUGT52H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:54:02.329 +03:00 [DBG] Connection id "0HNC0VLUGT52H" stopped.
+2025-04-21 20:54:03.065 +03:00 [DBG] Connection id "0HNC0VLUGT52I" accepted.
+2025-04-21 20:54:03.072 +03:00 [DBG] Connection id "0HNC0VLUGT52I" started.
+2025-04-21 20:54:03.086 +03:00 [DBG] Connection 0HNC0VLUGT52I established using the following protocol: "Tls13"
+2025-04-21 20:54:03.089 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:54:03.102 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-21 20:54:03.104 +03:00 [DBG] Endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)' with route pattern '{controller=Home}/{action=Index}' is valid for the request path '/'
+2025-04-21 20:54:03.107 +03:00 [DBG] Request matched endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:54:03.108 +03:00 [INF] Executing endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:54:03.111 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LabWork7.Controllers.HomeController (LabWork7).
+2025-04-21 20:54:03.119 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 20:54:03.121 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-21 20:54:03.123 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-21 20:54:03.126 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 20:54:03.129 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-21 20:54:03.135 +03:00 [DBG] Executing controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:54:03.137 +03:00 [DBG] Executed controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:54:03.139 +03:00 [INF] Info: Запрос получен.
+2025-04-21 20:54:03.140 +03:00 [DBG] Debug: Детали запроса...
+2025-04-21 20:54:03.141 +03:00 [WRN] Warning: Потенциальная проблема.
+2025-04-21 20:54:03.143 +03:00 [ERR] Error: Произошла ошибка.
+2025-04-21 20:54:03.144 +03:00 [DBG] View lookup cache hit for view 'Index' in controller 'Home'.
+2025-04-21 20:54:03.149 +03:00 [INF] Executing ViewResult, running view Index.
+2025-04-21 20:54:03.152 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 7.5931ms.
+2025-04-21 20:54:03.155 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2025-04-21 20:54:03.158 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-21 20:54:03.160 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in  and 
+2025-04-21 20:54:03.165 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /
+2025-04-21 20:54:03.168 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-21 20:54:03.170 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in  and 
+2025-04-21 20:54:03.172 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /
+2025-04-21 20:54:03.175 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-21 20:54:03.177 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in /Home/Privacy and 
+2025-04-21 20:54:03.180 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /Home/Privacy
+2025-04-21 20:54:03.183 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-21 20:54:03.185 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in /Home/Privacy and 
+2025-04-21 20:54:03.187 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /Home/Privacy
+2025-04-21 20:54:03.190 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 20:54:03.191 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 20:54:03.192 +03:00 [INF] Executed ViewResult - view Index executed in 48.1987ms.
+2025-04-21 20:54:03.194 +03:00 [INF] Executed action LabWork7.Controllers.HomeController.Index (LabWork7) in 59.3442ms
+2025-04-21 20:54:03.196 +03:00 [INF] Executed endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:54:03.200 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 20:54:03.203 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 20:54:03.207 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 117.4287ms
+2025-04-21 20:54:03.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-21 20:54:03.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 20:54:03.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-04-21 20:54:03.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/LabWork7.styles.css?v=OSwruJTB_DHdTvoqqFutTEAWy2zZbaNHvvQCQK1Ao20 - null null
+2025-04-21 20:54:03.224 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - null null
+2025-04-21 20:54:03.241 +03:00 [DBG] No candidates found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-04-21 20:54:03.242 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:03.224 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-21 20:54:03.227 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-04-21 20:54:03.232 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 9.1288ms
+2025-04-21 20:54:03.235 +03:00 [DBG] No candidates found for the request path '/css/site.css'
+2025-04-21 20:54:03.238 +03:00 [DBG] No candidates found for the request path '/LabWork7.styles.css'
+2025-04-21 20:54:03.224 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-21 20:54:03.224 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-04-21 20:54:03.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - 404 0 null 19.3798ms
+2025-04-21 20:54:03.248 +03:00 [DBG] No candidates found for the request path '/js/site.js'
+2025-04-21 20:54:03.249 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:03.254 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:03.256 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:03.259 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-04-21 20:54:03.270 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-04-21 20:54:03.271 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:03.272 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.6467ms
+2025-04-21 20:54:03.273 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 49.8902ms
+2025-04-21 20:54:03.275 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 404 0 null 51.3734ms
+2025-04-21 20:54:03.275 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/LabWork7.styles.css?v=OSwruJTB_DHdTvoqqFutTEAWy2zZbaNHvvQCQK1Ao20 - 404 0 null 51.9776ms
+2025-04-21 20:54:03.277 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:03.282 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 58.0216ms
+2025-04-21 20:54:03.288 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-04-21 20:54:03.292 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/css/site.css, Response status code: 404
+2025-04-21 20:54:03.298 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/LabWork7.styles.css, Response status code: 404
+2025-04-21 20:54:03.299 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 75.5619ms
+2025-04-21 20:54:03.306 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/js/site.js, Response status code: 404
+2025-04-21 20:54:03.318 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-04-21 20:54:04.760 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 20:54:04.773 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-21 20:54:04.775 +03:00 [DBG] Endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)' with route pattern '{controller=Home}/{action=Index}' is valid for the request path '/'
+2025-04-21 20:54:04.778 +03:00 [DBG] Request matched endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:54:04.780 +03:00 [INF] Executing endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:54:04.784 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LabWork7.Controllers.HomeController (LabWork7).
+2025-04-21 20:54:04.794 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 20:54:04.807 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-21 20:54:04.822 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-21 20:54:04.848 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 20:54:04.871 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-21 20:54:04.893 +03:00 [DBG] Executing controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:54:04.910 +03:00 [DBG] Executed controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 20:54:04.921 +03:00 [INF] Info: Запрос получен.
+2025-04-21 20:54:04.930 +03:00 [DBG] Debug: Детали запроса...
+2025-04-21 20:54:04.936 +03:00 [WRN] Warning: Потенциальная проблема.
+2025-04-21 20:54:04.945 +03:00 [ERR] Error: Произошла ошибка.
+2025-04-21 20:54:04.951 +03:00 [DBG] View lookup cache hit for view 'Index' in controller 'Home'.
+2025-04-21 20:54:04.959 +03:00 [INF] Executing ViewResult, running view Index.
+2025-04-21 20:54:04.961 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 10.2316ms.
+2025-04-21 20:54:04.965 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2025-04-21 20:54:04.968 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-21 20:54:04.970 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in  and 
+2025-04-21 20:54:04.973 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /
+2025-04-21 20:54:04.978 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-21 20:54:04.981 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in  and 
+2025-04-21 20:54:04.984 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /
+2025-04-21 20:54:04.986 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-21 20:54:04.988 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in /Home/Privacy and 
+2025-04-21 20:54:04.989 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /Home/Privacy
+2025-04-21 20:54:04.990 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-21 20:54:04.994 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in /Home/Privacy and 
+2025-04-21 20:54:04.997 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /Home/Privacy
+2025-04-21 20:54:04.999 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 20:54:05.000 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 20:54:05.001 +03:00 [INF] Executed ViewResult - view Index executed in 50.1933ms.
+2025-04-21 20:54:05.002 +03:00 [INF] Executed action LabWork7.Controllers.HomeController.Index (LabWork7) in 109.1691ms
+2025-04-21 20:54:05.003 +03:00 [INF] Executed endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 20:54:05.005 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 20:54:05.006 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 20:54:05.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 248.2816ms
+2025-04-21 20:54:05.023 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-21 20:54:05.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 20:54:05.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-04-21 20:54:05.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/LabWork7.styles.css?v=OSwruJTB_DHdTvoqqFutTEAWy2zZbaNHvvQCQK1Ao20 - null null
+2025-04-21 20:54:05.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - null null
+2025-04-21 20:54:05.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-21 20:54:05.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-21 20:54:05.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-04-21 20:54:05.028 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-04-21 20:54:05.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 7.4575ms
+2025-04-21 20:54:05.033 +03:00 [DBG] No candidates found for the request path '/css/site.css'
+2025-04-21 20:54:05.035 +03:00 [DBG] No candidates found for the request path '/LabWork7.styles.css'
+2025-04-21 20:54:05.038 +03:00 [DBG] No candidates found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-04-21 20:54:05.041 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-04-21 20:54:05.043 +03:00 [DBG] No candidates found for the request path '/js/site.js'
+2025-04-21 20:54:05.048 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:05.056 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.6913ms
+2025-04-21 20:54:05.056 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:05.058 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:05.059 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:05.061 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:05.063 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 20:54:05.064 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 41.5306ms
+2025-04-21 20:54:05.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 404 0 null 45.2281ms
+2025-04-21 20:54:05.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/LabWork7.styles.css?v=OSwruJTB_DHdTvoqqFutTEAWy2zZbaNHvvQCQK1Ao20 - 404 0 null 45.8338ms
+2025-04-21 20:54:05.071 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - 404 0 null 46.7016ms
+2025-04-21 20:54:05.072 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 47.7255ms
+2025-04-21 20:54:05.073 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 48.6019ms
+2025-04-21 20:54:05.077 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-04-21 20:54:05.082 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/css/site.css, Response status code: 404
+2025-04-21 20:54:05.085 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/LabWork7.styles.css, Response status code: 404
+2025-04-21 20:54:05.088 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-04-21 20:54:05.091 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-04-21 20:54:05.095 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/js/site.js, Response status code: 404
+2025-04-21 20:54:07.313 +03:00 [DBG] Connection id "0HNC0VLUGT52I" received FIN.
+2025-04-21 20:54:07.320 +03:00 [DBG] Connection id "0HNC0VLUGT52I" is closed. The last processed stream ID was 35.
+2025-04-21 20:54:07.321 +03:00 [DBG] The connection queue processing loop for 0HNC0VLUGT52I completed.
+2025-04-21 20:54:07.322 +03:00 [DBG] Connection id "0HNC0VLUGT52I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:54:07.335 +03:00 [DBG] Connection id "0HNC0VLUGT52I" stopped.
+2025-04-21 20:54:10.341 +03:00 [DBG] Connection id "0HNC0VLUGT52J" accepted.
+2025-04-21 20:54:10.345 +03:00 [DBG] Connection id "0HNC0VLUGT52J" started.
+2025-04-21 20:54:10.352 +03:00 [DBG] Connection 0HNC0VLUGT52J established using the following protocol: "Tls13"
+2025-04-21 20:54:10.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 20:54:10.399 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.5681ms
+2025-04-21 20:54:12.315 +03:00 [DBG] Connection id "0HNC0VLUGT52J" received FIN.
+2025-04-21 20:54:12.318 +03:00 [DBG] Connection id "0HNC0VLUGT52J" is closed. The last processed stream ID was 1.
+2025-04-21 20:54:12.318 +03:00 [DBG] The connection queue processing loop for 0HNC0VLUGT52J completed.
+2025-04-21 20:54:12.320 +03:00 [DBG] Connection id "0HNC0VLUGT52J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 20:54:12.324 +03:00 [DBG] Connection id "0HNC0VLUGT52J" stopped.
+2025-04-21 21:05:25.893 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-21 21:05:25.923 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-21 21:05:25.924 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-21 21:05:25.925 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-21 21:05:25.925 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-21 21:05:25.925 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-21 21:05:25.926 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-21 21:05:25.931 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 21:05:25.957 +03:00 [DBG] Hosting starting
+2025-04-21 21:05:25.969 +03:00 [INF] User profile is available. Using 'C:\Users\vrrrr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-21 21:05:25.977 +03:00 [DBG] Reading data from file 'C:\Users\vrrrr\AppData\Local\ASP.NET\DataProtection-Keys\key-6ded2f19-a5dc-437b-bbf6-69c282b700b0.xml'.
+2025-04-21 21:05:25.980 +03:00 [DBG] Reading data from file 'C:\Users\vrrrr\AppData\Local\ASP.NET\DataProtection-Keys\key-bdcfde20-8844-478f-8bdb-0aab322d8c95.xml'.
+2025-04-21 21:05:25.981 +03:00 [DBG] Reading data from file 'C:\Users\vrrrr\AppData\Local\ASP.NET\DataProtection-Keys\key-dc396d63-71a7-4e88-a4f6-7cfc09fa4efa.xml'.
+2025-04-21 21:05:25.983 +03:00 [DBG] Found key {6ded2f19-a5dc-437b-bbf6-69c282b700b0}.
+2025-04-21 21:05:25.986 +03:00 [DBG] Found key {bdcfde20-8844-478f-8bdb-0aab322d8c95}.
+2025-04-21 21:05:25.988 +03:00 [DBG] Found key {dc396d63-71a7-4e88-a4f6-7cfc09fa4efa}.
+2025-04-21 21:05:25.993 +03:00 [DBG] Considering key {6ded2f19-a5dc-437b-bbf6-69c282b700b0} with expiration date 2025-05-10 11:16:19Z as default key.
+2025-04-21 21:05:25.997 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-21 21:05:26.000 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-21 21:05:26.001 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-21 21:05:26.008 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-21 21:05:26.009 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-21 21:05:26.012 +03:00 [DBG] Using key {6ded2f19-a5dc-437b-bbf6-69c282b700b0} as the default key.
+2025-04-21 21:05:26.013 +03:00 [DBG] Key ring with default key {6ded2f19-a5dc-437b-bbf6-69c282b700b0} was loaded during application startup.
+2025-04-21 21:05:26.064 +03:00 [INF] Now listening on: https://localhost:7253
+2025-04-21 21:05:26.065 +03:00 [INF] Now listening on: http://localhost:5012
+2025-04-21 21:05:26.066 +03:00 [DBG] Loaded hosting startup assembly LabWork7
+2025-04-21 21:05:26.066 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 21:05:26.067 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 21:05:26.068 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 21:05:26.076 +03:00 [DBG] Connection id "0HNC0VSBSOME4" received FIN.
+2025-04-21 21:05:26.076 +03:00 [DBG] Connection id "0HNC0VSBSOME5" received FIN.
+2025-04-21 21:05:26.082 +03:00 [DBG] Connection id "0HNC0VSBSOME5" accepted.
+2025-04-21 21:05:26.082 +03:00 [DBG] Connection id "0HNC0VSBSOME4" accepted.
+2025-04-21 21:05:26.083 +03:00 [DBG] Connection id "0HNC0VSBSOME5" started.
+2025-04-21 21:05:26.083 +03:00 [DBG] Connection id "0HNC0VSBSOME4" started.
+2025-04-21 21:05:26.095 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 21:05:26.095 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 21:05:26.108 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 21:05:26.109 +03:00 [DBG] Connection id "0HNC0VSBSOME5" stopped.
+2025-04-21 21:05:26.109 +03:00 [DBG] Connection id "0HNC0VSBSOME4" stopped.
+2025-04-21 21:05:26.109 +03:00 [INF] Hosting environment: Development
+2025-04-21 21:05:26.112 +03:00 [INF] Content root path: C:\Users\vrrrr\OneDrive\Рабочий стол\Учёба\4 семестр\Backend-разработка\LabWork7
+2025-04-21 21:05:26.113 +03:00 [DBG] Connection id "0HNC0VSBSOME5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 21:05:26.113 +03:00 [DBG] Connection id "0HNC0VSBSOME4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 21:05:26.113 +03:00 [DBG] Hosting started
+2025-04-21 21:05:26.369 +03:00 [DBG] Connection id "0HNC0VSBSOME6" accepted.
+2025-04-21 21:05:26.371 +03:00 [DBG] Connection id "0HNC0VSBSOME6" started.
+2025-04-21 21:05:26.401 +03:00 [DBG] Connection 0HNC0VSBSOME6 established using the following protocol: "Tls13"
+2025-04-21 21:05:26.443 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2025-04-21 21:05:26.528 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 21:05:26.542 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-21 21:05:26.546 +03:00 [DBG] Endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)' with route pattern '{controller=Home}/{action=Index}' is valid for the request path '/'
+2025-04-21 21:05:26.548 +03:00 [DBG] Request matched endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 21:05:26.551 +03:00 [INF] Executing endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 21:05:26.580 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller LabWork7.Controllers.HomeController (LabWork7).
+2025-04-21 21:05:26.582 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 21:05:26.584 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-21 21:05:26.587 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-21 21:05:26.588 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 21:05:26.589 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-21 21:05:26.592 +03:00 [DBG] Executing controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 21:05:26.593 +03:00 [DBG] Executed controller factory for controller LabWork7.Controllers.HomeController (LabWork7)
+2025-04-21 21:05:26.595 +03:00 [INF] Info: Запрос получен.
+2025-04-21 21:05:26.596 +03:00 [DBG] Debug: Детали запроса...
+2025-04-21 21:05:26.596 +03:00 [WRN] Warning: Потенциальная проблема.
+2025-04-21 21:05:26.597 +03:00 [ERR] Error: Произошла ошибка.
+2025-04-21 21:05:26.598 +03:00 [FTL] Critical: Критическая ошибка!
+2025-04-21 21:05:26.600 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-04-21 21:05:26.607 +03:00 [INF] Executing ViewResult, running view Index.
+2025-04-21 21:05:26.610 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 8.2822ms.
+2025-04-21 21:05:26.628 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-04-21 21:05:26.660 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-21 21:05:26.663 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in  and 
+2025-04-21 21:05:26.665 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /
+2025-04-21 21:05:26.667 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-21 21:05:26.669 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in  and 
+2025-04-21 21:05:26.670 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /
+2025-04-21 21:05:26.672 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-21 21:05:26.673 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in /Home/Privacy and 
+2025-04-21 21:05:26.674 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /Home/Privacy
+2025-04-21 21:05:26.675 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-21 21:05:26.676 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index} for Route: {controller=Home}/{action=Index} resulting in /Home/Privacy and 
+2025-04-21 21:05:26.677 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}"] with result /Home/Privacy
+2025-04-21 21:05:26.683 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 21:05:26.687 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 21:05:26.690 +03:00 [INF] Executed ViewResult - view Index executed in 90.6532ms.
+2025-04-21 21:05:26.692 +03:00 [INF] Executed action LabWork7.Controllers.HomeController.Index (LabWork7) in 102.0218ms
+2025-04-21 21:05:26.693 +03:00 [INF] Executed endpoint 'LabWork7.Controllers.HomeController.Index (LabWork7)'
+2025-04-21 21:05:26.694 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 21:05:26.695 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 21:05:26.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 257.8295ms
+2025-04-21 21:05:26.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-21 21:05:26.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/LabWork7.styles.css?v=OSwruJTB_DHdTvoqqFutTEAWy2zZbaNHvvQCQK1Ao20 - null null
+2025-04-21 21:05:26.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-04-21 21:05:26.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 21:05:26.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-21 21:05:26.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-21 21:05:26.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - null null
+2025-04-21 21:05:26.719 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-04-21 21:05:26.722 +03:00 [DBG] No candidates found for the request path '/LabWork7.styles.css'
+2025-04-21 21:05:26.726 +03:00 [DBG] No candidates found for the request path '/css/site.css'
+2025-04-21 21:05:26.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2025-04-21 21:05:26.736 +03:00 [DBG] No candidates found for the request path '/js/site.js'
+2025-04-21 21:05:26.737 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 21.8822ms
+2025-04-21 21:05:26.740 +03:00 [DBG] No candidates found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-04-21 21:05:26.743 +03:00 [DBG] No candidates found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-04-21 21:05:26.745 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 21:05:26.746 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 21:05:26.748 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 21:05:26.755 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 21:05:26.762 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 21:05:26.763 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 21:05:26.766 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 55.2176ms
+2025-04-21 21:05:26.766 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/LabWork7.styles.css?v=OSwruJTB_DHdTvoqqFutTEAWy2zZbaNHvvQCQK1Ao20 - 404 0 null 51.6321ms
+2025-04-21 21:05:26.767 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 404 0 null 52.7172ms
+2025-04-21 21:05:26.769 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 404 0 null 53.958ms
+2025-04-21 21:05:26.770 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 55.1771ms
+2025-04-21 21:05:26.772 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - 404 0 null 56.0173ms
+2025-04-21 21:05:26.778 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-04-21 21:05:26.784 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/LabWork7.styles.css, Response status code: 404
+2025-04-21 21:05:26.791 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/css/site.css, Response status code: 404
+2025-04-21 21:05:26.797 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/js/site.js, Response status code: 404
+2025-04-21 21:05:26.800 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-04-21 21:05:26.804 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-04-21 21:05:26.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.6605ms
+2025-04-21 21:05:27.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7253/favicon.ico - null null
+2025-04-21 21:05:27.017 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-04-21 21:05:27.018 +03:00 [DBG] Request did not match any endpoints
+2025-04-21 21:05:27.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7253/favicon.ico - 404 0 null 6.6826ms
+2025-04-21 21:05:27.026 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/favicon.ico, Response status code: 404
+2025-04-21 21:05:34.860 +03:00 [DBG] Connection id "0HNC0VSBSOME6" received FIN.
+2025-04-21 21:05:34.876 +03:00 [DBG] The connection queue processing loop for 0HNC0VSBSOME6 completed.
+2025-04-21 21:05:34.878 +03:00 [DBG] Connection id "0HNC0VSBSOME6" is closed. The last processed stream ID was 19.
+2025-04-21 21:05:34.885 +03:00 [DBG] Connection id "0HNC0VSBSOME6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 21:05:34.904 +03:00 [DBG] Connection id "0HNC0VSBSOME6" stopped.
